@@ -14,13 +14,14 @@ const Banner = () => {
                     </p>
                     <div className="flex gap-5">
                     <div>
-                            <button className="border-[#01a1e5] border-2 rounded-md py-2 px-3 text-[#081b29] bg-[#01a1e5] hover:bg-[#081b29] hover:text-[#01a1e5]  mt-10 mb-10">
+                            <button className="border-[#01a1e5] border-2 rounded-md py-2 px-3 text-[#081b29]
+                             bg-[#01a1e5] hover:bg-[#081b29] hover:text-[#01a1e5] mt-5 md:mt-10">
                                 Download Resume
                             </button>
                         </div>                      
                         <div>
                             <button className=" border-[#01a1e5] border-2 rounded-md py-2 px-3 text-[#01a1e5]  hover:bg-[#01a1e5]
-                               hover:text-[#081b29] md:mt-10">
+                               hover:text-[#081b29] md:mt-10 mt-5">
                                 Let's Talk
                             </button>
                         </div>
