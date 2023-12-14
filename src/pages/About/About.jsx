@@ -18,7 +18,7 @@ const About = () => {
                         animations.A responsive design makes your website accessible to all users,
                         regardless of their device.
                     </p>
-                    <button className="border-[#01a1e5] border-2 rounded-md py-2 mb-10 px-3 text-[#081b29]
+                    <button className="border-[#01a1e5] border-2 rounded-md py-2 px-3 text-[#081b29]
                              bg-[#01a1e5] hover:bg-[#081b29] hover:text-[#01a1e5] mt-5 md:mt-10">
                         <a href="https://www.linkedin.com/in/hosneara-popy-911abb136/" target="_blank" rel="noreferrer">Read More</a> 
                     </button>

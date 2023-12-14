@@ -6,7 +6,7 @@ const Banner = () => {
         <div className=" h-screen w-full bg-[#081b29]">
             <div className="h-[100vh] mx-auto flex flex-col items-center justify-between pt-10 px-28
             md:flex-row text-white">
-                <div className="mt-32">
+                <div className="mt-26">
                     <h2 className="md:text-5xl text-2xl font-extrabold">Hi, I'm Hosneara Popy</h2>
                     <p className="md:text-3xl text-xl font-extrabold text-[#01a1e5] mt-3">Frontend Developer</p>
                     <p className="mt-4">I work on web application using technology like html, tailwind CSS, <br /> React.js,
