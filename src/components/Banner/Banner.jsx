@@ -13,12 +13,14 @@ const Banner = () => {
                         express and MongoDB.
                     </p>
                     <div className="flex gap-5">
-                    <div>
-                            <button className="border-[#01a1e5] border-2 rounded-md py-2 px-3 text-[#081b29]
-                             bg-[#01a1e5] hover:bg-[#081b29] hover:text-[#01a1e5] mt-5 md:mt-10">
-                                Download Resume
-                            </button>
-                        </div>                      
+                        <div>
+                            <a href="/src/assets/Assignment-02.pdf" download="Resume">
+                                <button className="border-[#01a1e5] border-2 rounded-md py-2 px-3 text-[#081b29]
+                                  bg-[#01a1e5] hover:bg-[#081b29] hover:text-[#01a1e5] mt-5 md:mt-10">
+                                    Download Resume
+                                </button>
+                            </a>
+                        </div>
                         <div>
                             <button className=" border-[#01a1e5] border-2 rounded-md py-2 px-3 text-[#01a1e5]  hover:bg-[#01a1e5]
                                hover:text-[#081b29] md:mt-10 mt-5">
