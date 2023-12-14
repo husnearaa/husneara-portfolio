@@ -11,14 +11,14 @@ const Navbar = () => {
 
     return (
         <div>
-            <nav className="flex justify-between items-center fixed w-full py-10 px-28 text-white bg-black ">
+            <nav className="flex justify-between items-center fixed w-full py-10 px-28 text-white bg-[#081b29] ">
                 <h2 className="text-3xl font-extrabold dark:text-white">Husneara.</h2>
                 <ul className="md:flex gap-5 hidden md:flex-row font-semibold dark:text-white">
                     <li className="cursor-pointer duration-200 hover:scale-105">
                         <NavLink
                             to="/"
                             className={({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "text-[#085981] " : ""
+                                isPending ? "pending" : isActive ? "text-[#01a1e5] " : ""
                             }
                         >
                             Home
@@ -28,7 +28,7 @@ const Navbar = () => {
                         <NavLink
                             to="/about"
                             className={({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "text-[#085981] " : ""
+                                isPending ? "pending" : isActive ? "text-[#01a1e5] " : ""
                             }
                         >
                             About
@@ -38,7 +38,7 @@ const Navbar = () => {
                         <NavLink
                             to="/education"
                             className={({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "text-[#085981] " : ""
+                                isPending ? "pending" : isActive ? "text-[#01a1e5] " : ""
                             }
                         >
                             Education
@@ -48,7 +48,7 @@ const Navbar = () => {
                         <NavLink
                             to="/skills"
                             className={({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "text-[#085981]  " : ""
+                                isPending ? "pending" : isActive ? "text-[#01a1e5]  " : ""
                             }
                         >
                             Skills
@@ -59,7 +59,7 @@ const Navbar = () => {
                         <NavLink
                             to="/projects"
                             className={({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "text-[#085981]  " : ""
+                                isPending ? "pending" : isActive ? "text-[#01a1e5]  " : ""
                             }
                         >
                             Projects
@@ -70,7 +70,7 @@ const Navbar = () => {
                         <NavLink
                             to="/contact"
                             className={({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "text-[#085981] " : ""
+                                isPending ? "pending" : isActive ? "text-[#01a1e5]" : ""
                             }
                         >
                             Contact
@@ -91,12 +91,12 @@ const Navbar = () => {
                 nav && (
                    
                     <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen 
-                    bg-gradient-to-b from-black to-gray-800 text-gray-500 font-semibold dark:text-white">
+                    bg-gradient-to-b from-[#081b29] to-[#112e42] text-base-300 font-semibold dark:text-white">
                         <li className="cursor-pointer duration-200 hover:scale-105">
                             <NavLink
                                 to="/"
                                 className={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "text-[#085981] " : ""
+                                    isPending ? "pending" : isActive ? "text-[#01a1e5]" : ""
                                 }
                             >
                                 Home
@@ -106,7 +106,7 @@ const Navbar = () => {
                             <NavLink
                                 to="/about"
                                 className={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "text-[#085981] " : ""
+                                    isPending ? "pending" : isActive ? "text-[#01a1e5]" : ""
                                 }
                             >
                                 About
@@ -116,7 +116,7 @@ const Navbar = () => {
                             <NavLink
                                 to="/education"
                                 className={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "text-[#085981] " : ""
+                                    isPending ? "pending" : isActive ? "text-[#01a1e5]" : ""
                                 }
                             >
                                 Education
@@ -126,7 +126,7 @@ const Navbar = () => {
                             <NavLink
                                 to="/skills"
                                 className={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "text-[#085981]  " : ""
+                                    isPending ? "pending" : isActive ? "text-[#01a1e5]" : ""
                                 }
                             >
                                 Skills
@@ -137,7 +137,7 @@ const Navbar = () => {
                             <NavLink
                                 to="/projects"
                                 className={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "text-[#085981]  " : ""
+                                    isPending ? "pending" : isActive ? "text-[#01a1e5]" : ""
                                 }
                             >
                                 Projects
@@ -148,7 +148,7 @@ const Navbar = () => {
                             <NavLink
                                 to="/contact"
                                 className={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "text-[#085981] " : ""
+                                    isPending ? "pending" : isActive ? "text-[#01a1e5]" : ""
                                 }
                             >
                                 Contact
