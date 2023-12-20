@@ -18,9 +18,9 @@ const About = () => {
                             </div>
                         </div>
                         <div className="md:w-1/2 space-y-5 md:text-justify text-center">
-                            <h3 className="text-white">hello</h3> 
+                            <h3 className="text-white text-2xl">Hi ,</h3> 
                             <p className="text-justify items-center text-white md:text-base text-sm">
-                                Hi, I'm Hosneara Parvin Popy , a detail-oriented Front-End Developer. I can provide clean code and pixel
+                                I'm Hosneara Parvin Popy , a detail-oriented Front-End Developer. I can provide clean code and pixel
                                 perfect design. I also make the website more & more interactive with web
                                 animations. A responsive design makes your website accessible to all users,
                                 regardless of their device.
