@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 const Banner = () => {
@@ -22,10 +23,12 @@ const Banner = () => {
                             </a>
                         </div>
                         <div>
-                            <button className=" border-[#01a1e5] border-2 rounded-md py-2 px-3 text-[#01a1e5]  hover:bg-[#01a1e5]
+                            <Link to={"/contact"}>
+                                <button className=" border-[#01a1e5] border-2 rounded-md py-2 px-3 text-[#01a1e5]  hover:bg-[#01a1e5]
                                hover:text-[#081b29] md:mt-10 mt-5">
-                                Let's Talk
-                            </button>
+                                    Let's Talk
+                                </button>
+                            </Link>
                         </div>
                     </div>
                     <div className="flex gap-5 pt-8 ">
