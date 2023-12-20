@@ -17,7 +17,7 @@ const About = () => {
                                     src={"https://i.postimg.cc/XYcLfprV/IMG-20200313-114257-fotor-bg-remover-20231214154455.png"} alt="" />
                             </div>
                         </div>
-                        <div className="md:w-1/2  space-y-5">
+                        <div className="md:w-1/2 space-y-5 md:text-justify text-center">
                             <h3 className="text-white">hello</h3> 
                             <p className="text-justify items-center text-white md:text-base text-sm">
                                 Hi, I'm Hosneara Parvin Popy , a detail-oriented Front-End Developer. I can provide clean code and pixel
