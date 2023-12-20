@@ -1,14 +1,24 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { Cursor, useTypewriter } from 'react-simple-typewriter'
 
 
 const Banner = () => {
+
+
+    const [ text ] = useTypewriter({
+        words: ['Frontend Developer','Comfortable with Backend','Enthusiastic Learner'],
+        loop: {},
+    })
+
     return (
         <div className="bg-[#081b29]">
             <div className="flex items-center justify-between max-w-6xl h-[100vh] mx-auto py-20">
                 <div className="w-full text-center md:text-left md:w-7/12 text-white ">
                     <h2 className="md:text-5xl text-2xl font-extrabold">Hi, I'm Hosneara Popy</h2>
-                    <h2 className="md:text-3xl font-extrabold text-xl text-[#01a1e5] mt-3">Frontend Developer
+                    <h2 className="md:text-3xl font-bold text-xl text-[#01a1e5] mt-3">
+                       <span> {text}</span>
+                        <Cursor/>
                     </h2>
                     <p className="text-sm md:text-base font-medium text-white mt-3">
                         I work on web application using technology like html, <br /> tailwind CSS, React.js,

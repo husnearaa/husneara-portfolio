@@ -9,7 +9,7 @@ const Contact = () => {
                     <p></p>
                 </div>
                 <div className="md:flex ">
-                    <div className=" w-full md:w-1/2 pl-[34px] pr-[34px]  pb-[34px]  flex items-center justify-center">
+                    <div className=" w-full md:w-1/2 p-[34px] flex items-center justify-center">
                         <div className="space-y-3">
                             <div>
                                 <h3 className="text-white md:text-2xl text-lg font-semibold pb-3">Get in Touch</h3>
@@ -50,19 +50,19 @@ const Contact = () => {
                                 <label className="label">
                                     <span className="label-text md:text-lg text-medium text-white">Name</span>
                                 </label>
-                                <input type="text" name="name" placeholder="Your Name" className="input input-bordered bg-[#081b29] text-white " required=""></input>
+                                <input type="text" name="name" placeholder="Your Name" className="input input-bordered bg-[#081b29] text-white " required></input>
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text md:text-lg text-medium text-white">Email</span>
                                 </label>
-                                <input type="email" name="email" placeholder="Your Email" className="input input-bordered bg-[#081b29] text-white" required=""></input>
+                                <input type="email" name="email" placeholder="Your Email" className="input input-bordered bg-[#081b29] text-white" required></input>
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text  md:text-lg text-medium text-white">Message</span>
                                 </label>
-                                <textarea className="bg-[#081b29]  text-white rounded-lg px-4 py-2" placeholder="Write Your Message Here" name="message" id="" cols="30" rows="5" required=""></textarea>
+                                <textarea className="bg-[#081b29]  text-white rounded-lg px-4 py-2" placeholder="Write Your Message Here" name="message" id="" cols="30" rows="5" required></textarea>
                             </div>
                             <div className="form-control mt-6" >
                                  <input type="submit" value="Send" className="btn border-[#01a1e5] border-2 rounded-md text-lg  text-[#081b29]

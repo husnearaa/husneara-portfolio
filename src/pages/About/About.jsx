@@ -1,6 +1,12 @@
-
+import { Cursor, useTypewriter } from 'react-simple-typewriter'
 
 const About = () => {
+
+    const [text] = useTypewriter({
+        words: ['Frontend Developer'],
+        loop: {},
+    })
+
     return (
         <div className="bg-[#0f2c44]">
             <div>
@@ -18,7 +24,10 @@ const About = () => {
                             </div>
                         </div>
                         <div className="md:w-1/2 space-y-5 md:text-justify text-center">
-                            <h3 className="text-white text-2xl">Hi ,</h3> 
+                            <h2 className="md:text-3xl font-bold text-xl text-[#01a1e5] mt-3">
+                                <span> {text}</span>
+                                <Cursor />
+                            </h2>
                             <p className="text-justify items-center text-white md:text-base text-sm">
                                 I'm Hosneara Parvin Popy , a detail-oriented Front-End Developer. I can provide clean code and pixel
                                 perfect design. I also make the website more & more interactive with web
