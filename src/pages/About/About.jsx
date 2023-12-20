@@ -12,8 +12,8 @@ const About = () => {
                      src={"https://i.postimg.cc/XYcLfprV/IMG-20200313-114257-fotor-bg-remover-20231214154455.png"} alt="" />
                 </div>
                 <div className="w-1/2">
-                    <h3 className="md:text-3xl text-xl font-semibold">Frontend Developer</h3>
-                    <p className="pt-3 md:text-base text-sm">I am a front-end web developer.I can provide clean code and pixel
+                    <h3 className="md:text-3xl text-xl font-semibold text-white">Frontend Developer</h3>
+                    <p className="pt-3 md:text-base text-sm text-white">I am a front-end web developer.I can provide clean code and pixel
                         perfect design.I also make the website more & more interactive with web
                         animations.A responsive design makes your website accessible to all users,
                         regardless of their device.
