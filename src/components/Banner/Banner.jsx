@@ -26,7 +26,7 @@ const Banner = () => {
                         express and MongoDB.
                     </p>
                     <div className="flex gap-5 justify-center md:justify-normal mt-5">
-                        <a href="/public/Assignment-02.pdf" download="Resume of Hosneara" >
+                        <a href="/src/assets/Assignment-02.pdf" download="Resume of Hosneara"  target="_blank">
                             <button className="border-[#01a1e5] border-2 rounded-md py-2 px-3 text-[#081b29]
                                   bg-[#01a1e5] hover:bg-[#081b29] hover:scale-105 hover:text-[#01a1e5]">
                                 Download Resume

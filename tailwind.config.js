@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'parallax': 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("../public/parallax6.jpg")',
+        'parallax': 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("/parallax6.jpg")',
       },
     },
   },

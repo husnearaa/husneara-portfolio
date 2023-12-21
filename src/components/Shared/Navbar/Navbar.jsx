@@ -11,7 +11,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <nav className="flex justify-between items-center w-full py-8 px-28 text-white bg-parallax bg-cover bg-opacity-10">
+            <nav className="flex justify-between items-center w-full py-8 px-28 text-white bg-parallax bg-fixed bg-cover bg-opacity-10">
                 <h2 className="text-3xl font-extrabold dark:text-white">Husneara.</h2>
                 <ul className="md:flex gap-5 hidden md:flex-row font-semibold dark:text-white">
                     <li className="cursor-pointer duration-200 hover:scale-105">
