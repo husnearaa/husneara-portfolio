@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'parallax': 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("../public/parallax6.jpg")',
+      },
+    },
   },
   plugins: [require("daisyui")],
 }

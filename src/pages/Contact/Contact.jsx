@@ -1,15 +1,24 @@
-
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Contact = () => {
+
+
+    useEffect(() => {
+        Aos.init();
+    }, [])
+
+
     return (
         <div className="bg-[#0f2c44]">
             <div className="max-w-6xl mx-auto py-10 px-3 md:py-10 md:px-6 lg:py-20 lg:px-0 ">
                 <div className="text-center my-10 space-y-2">
-                    <h3 className="md:text-5xl text-2xl font-extrabold text-white">Contact <span className="md:text-5xl text-2xl text-[#01a1e5] font-extrabold">Me</span></h3>
+                    <h3 className="md:text-5xl text-2xl font-extrabold text-white" data-aos="zoom-in">Contact <span className="md:text-5xl text-2xl text-[#01a1e5] font-extrabold" data-aos="zoom-in">Me</span></h3>
                     <p></p>
                 </div>
                 <div className="md:flex ">
-                    <div className=" w-full md:w-1/2 p-[34px] flex items-center justify-center">
+                    <div className=" w-full md:w-1/2 p-[34px] flex items-center justify-center" data-aos="zoom-in" >
                         <div className="space-y-3">
                             <div>
                                 <h3 className="text-white md:text-2xl text-lg font-semibold pb-3">Get in Touch</h3>
@@ -44,7 +53,7 @@ const Contact = () => {
 
                         </div>
                     </div>
-                    <div className="w-full md:w-1/2 pt-15 bg-transparent">
+                    <div className="w-full md:w-1/2 pt-15 bg-transparent"data-aos="zoom-in" >
                         <form className="card-body ">
                             <div className="form-control">
                                 <label className="label">

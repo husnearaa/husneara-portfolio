@@ -11,9 +11,10 @@ const Banner = () => {
         loop: {},
     })
 
+
     return (
-        <div className="bg-[#081b29]">
-            <div className="flex items-center justify-between max-w-6xl h-[100vh] mx-auto py-20">
+        <div className="bg-opacity-10 bg-fixed bg-parallax bg-cover">
+            <div className="flex items-center justify-between max-w-6xl h-[100vh] mx-auto py-20 ">
                 <div className="w-full text-center md:text-left md:w-7/12 text-white ">
                     <h2 className="md:text-5xl text-2xl font-extrabold">Hi, I'm Hosneara Popy</h2>
                     <h2 className="md:text-3xl font-bold text-xl text-[#01a1e5] mt-3">
@@ -25,7 +26,7 @@ const Banner = () => {
                         express and MongoDB.
                     </p>
                     <div className="flex gap-5 justify-center md:justify-normal mt-5">
-                        <a href="/src/assets/Assignment-02.pdf" download="Resume" >
+                        <a href="/public/Assignment-02.pdf" download="Resume of Hosneara" >
                             <button className="border-[#01a1e5] border-2 rounded-md py-2 px-3 text-[#081b29]
                                   bg-[#01a1e5] hover:bg-[#081b29] hover:scale-105 hover:text-[#01a1e5]">
                                 Download Resume

@@ -1,25 +1,35 @@
 import { TbPointFilled } from "react-icons/tb";
 import { FaGlobe , FaGithub} from "react-icons/fa";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 
 const Projects = () => {
+
+
+    useEffect(() => {
+        Aos.init();
+    }, [])
+
     return (
         <div className="bg-[#0f2c44]">
             <div className="max-w-6xl mx-auto py-10 px-3 md:py-10 md:px-6 lg:py-20 lg:px-0 ">
                 <div className="text-center my-10 space-y-2">
-                    <h3 className="md:text-5xl text-2xl pb-5 font-extrabold text-white">
-                        Project<span className="md:text-5xl text-2xl text-[#01a1e5] font-extrabold">s</span>
+                    <h3 className="md:text-5xl text-2xl pb-5 font-extrabold text-white" data-aos="zoom-in">
+                        Projects<span className="md:text-5xl text-2xl text-[#01a1e5] font-extrabold" data-aos="zoom-in">s</span>
                     </h3>
                 </div>
                 {/* project-1  */}
                 <div className=" md:flex gap-6 space-y-6 md:space-y-0">
                     <div className="md:w-[30%] md:min-h-[400px] border-[#01a1e5] border-2 rounded-md ">
-                        <div className="flex justify-center items-center h-full bg-[#0f2c44] ">
+                        <div className="flex justify-center items-center h-full bg-[#0f2c44]"  data-aos="zoom-in">
                             <img className="hover:scale-105 transition-all" src={"https://i.postimg.cc/FsyNsLnj/ezy-fotor-bg-remover-20231220171856.png"} alt="" />
                         </div>
                     </div>
-                    <div className="md:w-[70%] min-h-[400px] overflow-hidden ">
+                    <div className="md:w-[70%] min-h-[400px] overflow-hidden" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
                         <div className="flex text-[#01a1e5] items-center gap-2">
-                            <h3 className="md:text-2xl text-lg font-mono">
+                            <h3 className="md:text-2xl text-lg font-mono" >
                                 EzyStay - Hotel Booking Management
                             </h3>
                         </div>
@@ -82,11 +92,11 @@ const Projects = () => {
                 {/* project-2  */}
                 <div className=" md:flex gap-6 space-y-6 md:space-y-0 mt-10">
                     <div className="md:w-[30%] md:min-h-[400px] border-[#01a1e5] border-2 rounded-md ">
-                        <div className="flex justify-center items-center h-full bg-[#0f2c44] ">
+                        <div className="flex justify-center items-center h-full bg-[#0f2c44]" data-aos="zoom-in">
                             <img className="hover:scale-105 transition-all" src={"https://i.postimg.cc/Nj0NKhjQ/beut-fotor-bg-remover-20231220173051.png"} alt="" />
                         </div>
                     </div>
-                    <div className="md:w-[70%] min-h-[400px] overflow-hidden ">
+                    <div className="md:w-[70%] min-h-[400px] overflow-hidden" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
                         <div className="flex text-[#01a1e5] items-center gap-2">
                             <h3 className="md:text-2xl text-lg  font-mono">
                             Beauty World - E-commerce                                 
