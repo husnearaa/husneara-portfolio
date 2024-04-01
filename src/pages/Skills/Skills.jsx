@@ -14,7 +14,7 @@ const Skills = () => {
         <div className="bg-[#0f2c44]">
             <div className="max-w-6xl mx-auto py-10 px-3 md:py-10 md:px-6 lg:py-20 lg:px-0 ">
                 <div className="text-center my-10 space-y-2">
-                    <h2 className="md:text-5xl text-2xl text-white font-extrabold text-center"  data-aos="zoom-in">My <span className="md:text-5xl text-2xl text-[#01a1e5] font-extrabold"  data-aos="zoom-in">Skills</span></h2>
+                    <h2 className="md:text-5xl text-2xl text-white font-extrabold text-center" data-aos="zoom-in">My <span className="md:text-5xl text-2xl text-[#01a1e5] font-extrabold" data-aos="zoom-in">Skills</span></h2>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                     <div className="lg:my-2 " data-aos="fade-down">
@@ -70,6 +70,20 @@ const Skills = () => {
                         <div className=" flex justify-between ">
                             <span className="font-bold text-[#E2E3CE]">MongoDB</span>
                             <span className="font-bold text-[#E2E3CE]">63%</span>
+                        </div>
+                        <progress className="progress progress-accent border-2 border-[#01a1e5] my-2" value="63" max="100"></progress>
+                    </div>
+                    <div className="lg:my-2 " data-aos="fade-down">
+                        <div className=" flex justify-between ">
+                            <span className="font-bold text-[#E2E3CE]">Redux</span>
+                            <span className="font-bold text-[#E2E3CE]">40%</span>
+                        </div>
+                        <progress className="progress progress-accent border-2 border-[#01a1e5] my-2" value="63" max="100"></progress>
+                    </div>
+                    <div className="lg:my-2 " data-aos="fade-down">
+                        <div className=" flex justify-between ">
+                            <span className="font-bold text-[#E2E3CE]">NextJS</span>
+                            <span className="font-bold text-[#E2E3CE]">30%</span>
                         </div>
                         <progress className="progress progress-accent border-2 border-[#01a1e5] my-2" value="63" max="100"></progress>
                     </div>
